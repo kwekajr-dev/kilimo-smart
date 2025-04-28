@@ -207,5 +207,11 @@ public function storeRatiba(Request $request) {
     $products = products::all();
     return view('products.masoko', compact('products'));
   }
+  public function about(){
+    return view('products.about');
+  }
+  public function contact(){
+    return view('products.contact');
+  }
   
 }

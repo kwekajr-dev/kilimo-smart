@@ -126,10 +126,10 @@
                 
               
                 <div class="hidden md:flex items-center space-x-4">
-                    <a href="#home" class="nav-item text-gray-700 hover:text-teal-600 px-3 py-2">Home</a>
-                    <a href="#about" class="nav-item text-gray-700 hover:text-teal-600 px-3 py-2">About</a>
+                    <a href="" class="nav-item text-gray-700 hover:text-teal-600 px-3 py-2">Home</a>
+                    <a href="{{route('products.about')}}" class="nav-item text-gray-700 hover:text-teal-600 px-3 py-2">About</a>
                     <a href="#services" class="nav-item text-gray-700 hover:text-teal-600 px-3 py-2">Services</a>
-                    <a href="#contact" class="nav-item text-gray-700 hover:text-teal-600 px-3 py-2">Contact</a>
+                    <a href="{{route('products.about')}}" class="nav-item text-gray-700 hover:text-teal-600 px-3 py-2">Contact</a>
                 </div>
                 
                 
@@ -150,10 +150,10 @@
                 <h1 class="text-5xl font-bold mb-4">Harvesting Tomorrow's Harvests Today</h1>
                 <p class="text-lg mb-6">Pale ambapo kilimo kinakutana na uvumbuzi. Jukwaa letu linalenga kuwawezesha wakulima kwa teknolojia ya kisasa na suluhisho kamili zinazoboresha uzalishaji na kuhakikisha uendelevu.</p>
                 <div class="flex space-x-4">
-                    <a href="#register" class="bg-teal-700 hover:bg-teal-800 text-white py-2 px-4 rounded-lg text-sm flex items-center">
+                    <a href="{{route('products.register')}}" class="bg-teal-700 hover:bg-teal-800 text-white py-2 px-4 rounded-lg text-sm flex items-center">
                         <i class="fas fa-user-plus mr-2"></i> Jisajili Hapa
                     </a>
-                    <a href="#download" class="bg-white hover:bg-gray-100 text-teal-700 py-2 px-4 rounded-lg text-sm flex items-center">
+                    <a href="#subili bado application" class="bg-white hover:bg-gray-100 text-teal-700 py-2 px-4 rounded-lg text-sm flex items-center">
                         <i class="fas fa-download mr-2"></i> Download App
                     </a>
                 </div>
@@ -364,16 +364,16 @@
                         
                         <h3 class="text-xl font-bold mb-4 mt-6 text-teal-800">Tufuate</h3>
                         <div class="flex space-x-4">
-                            <a href="#" class="text-teal-600 hover:text-teal-800 transition">
+                            <a href="" class="text-teal-600 hover:text-teal-800 transition">
                                 <i class="fab fa-facebook-f text-xl"></i>
                             </a>
-                            <a href="#" class="text-teal-600 hover:text-teal-800 transition">
+                            <a href="https://www.instagram.com/kweka__jr?igsh=MTVuNWRwN29kN2RhNA==" class="text-teal-600 hover:text-teal-800 transition">
                                 <i class="fab fa-twitter text-xl"></i>
                             </a>
-                            <a href="#" class="text-teal-600 hover:text-teal-800 transition">
+                            <a href="https://www.instagram.com/kweka__jr?igsh=MTVuNWRwN29kN2RhNA==" class="text-teal-600 hover:text-teal-800 transition">
                                 <i class="fab fa-instagram text-xl"></i>
                             </a>
-                            <a href="#" class="text-teal-600 hover:text-teal-800 transition">
+                            <a href="https://www.instagram.com/kweka__jr?igsh=MTVuNWRwN29kN2RhNA==" class="text-teal-600 hover:text-teal-800 transition">
                                 <i class="fab fa-linkedin-in text-xl"></i>
                             </a>
                         </div>

@@ -23,6 +23,8 @@ Route::post('/products/storeRatiba', [ProductController::class, 'storeRatiba'])-
 Route::get('/products/mashamba', [ProductController::class, 'getMashambaData'])->name('products.mashamba');
 Route::get('/products/masoko', [ProductController::class, 'masoko'])->name('products.masoko');
 Route::get('/products/getProducts', [ProductController::class, 'getProducts'])->name('products.getProducts');
+Route::get('/products/about', [ProductController::class, 'about'])->name('products.about');
+Route::get('/products/contact', [ProductController::class, 'contact'])->name('products.contact');
 
 
 
