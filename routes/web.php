@@ -26,6 +26,7 @@ Route::get('/products/getProducts', [ProductController::class, 'getProducts'])->
 Route::get('/products/about', [ProductController::class, 'about'])->name('products.about');
 Route::get('/products/contact', [ProductController::class, 'contact'])->name('products.contact');
 Route::get('/products/service', [ProductController::class, 'service'])->name('products.service');
+Route::post('/products/message', [ProductController::class, 'message'])->name('products.message');
 
 
 

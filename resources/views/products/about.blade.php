@@ -296,7 +296,7 @@
                 <h3 class="text-2xl font-bold text-white mb-4">Tofauti Yetu</h3>
                 <p class="text-lg text-white opacity-90 mb-4">Katika Kilimo Smart, tunaungana na wakulima kujenga mustakabali wa kilimo endelevu na chenye tija zaidi.</p>
                 <p class="text-white opacity-90 mb-6">Tunatumia utafiti wa kisayansi, teknolojia ya kisasa, na maarifa ya jadi kuunda suluhisho zinazofaa kwa wakulima wa Afrika Mashariki.</p>
-                <a href="#" class="bg-white text-teal-700 hover:bg-gray-100 font-medium py-3 px-6 rounded-lg inline-block transition-all">Wasiliana Nasi Leo</a>
+                <a href="{{route('products.contact')}}" class="bg-white text-teal-700 hover:bg-gray-100 font-medium py-3 px-6 rounded-lg inline-block transition-all">Wasiliana Nasi Leo</a>
             </div>
         </div>
     </div>

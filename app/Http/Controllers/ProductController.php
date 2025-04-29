@@ -8,6 +8,7 @@ use App\Models\products;
 use App\Models\User;
 use App\Models\shamba;
 use App\Models\ratiba;
+use App\Models\message;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Http\Request;
@@ -216,5 +217,23 @@ public function storeRatiba(Request $request) {
   public function service(){
     return view('products.service');
   }
-  
+
+
+  //message handling
+  public function message(Request $request){
+    $validated = $request->validate([
+        'name' => 'required|string|max:255',
+        'email' => 'required|email|max:255',
+        'message' => 'required|string|min:5',
+    ]);
+    
+    
+    $message = message::create([
+        'name' => $request->name,
+        'email' => $request->email,
+        'message' => $request->message,
+    ]);
+    return redirect()->route('home')->with('success', 'umefanikiwa kutuma taarifa');
+    
+  }
 }

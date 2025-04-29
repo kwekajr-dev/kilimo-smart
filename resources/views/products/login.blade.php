@@ -209,9 +209,9 @@
                 <p>Tunakuwezesha kwa taarifa sahihi kuhusu hali ya hewa na mbinu bora za kilimo.</p>
             </div>
             <div>
-                <a href="#">Nyumbani</a>
-                <a href="#">Msaada</a>
-                <a href="#">Wasiliana</a>
+                <a href="{{('home')}}">Nyumbani</a>
+                <a href="{{('products.contact')}}">Msaada</a>
+                <a href="{{('products.contact')}}">Wasiliana</a>
             </div>
             <div>
                 <p>&copy; {{ date('Y') }} Kilimo Smart. Haki zote zimehifadhiwa.</p>

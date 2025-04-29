@@ -126,9 +126,9 @@
                 
               
                 <div class="hidden md:flex items-center space-x-4">
-                    <a href="" class="nav-item text-gray-700 hover:text-teal-600 px-3 py-2">Home</a>
+                    <a href="{{route('home')}}" class="nav-item text-gray-700 hover:text-teal-600 px-3 py-2">Home</a>
                     <a href="{{route('products.about')}}" class="nav-item text-gray-700 hover:text-teal-600 px-3 py-2">About</a>
-                    <a href="#services" class="nav-item text-gray-700 hover:text-teal-600 px-3 py-2">Services</a>
+                    <a href="{{route('products.service')}}" class="nav-item text-gray-700 hover:text-teal-600 px-3 py-2">Services</a>
                     <a href="{{route('products.about')}}" class="nav-item text-gray-700 hover:text-teal-600 px-3 py-2">Contact</a>
                 </div>
                 
@@ -255,21 +255,23 @@
             
             <div class="flex flex-col md:flex-row gap-10">
                 <div class="md:w-1/2">
-                    <form class="space-y-4">
-                        <div>
-                            <label for="name" class="block text-gray-700 mb-2">Jina Lako</label>
-                            <input type="text" id="name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-600">
-                        </div>
-                        <div>
-                            <label for="email" class="block text-gray-700 mb-2">Barua Pepe</label>
-                            <input type="email" id="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-600">
-                        </div>
-                        <div>
-                            <label for="message" class="block text-gray-700 mb-2">Ujumbe Wako</label>
-                            <textarea id="message" rows="5" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-600"></textarea>
-                        </div>
-                        <button type="submit" class="bg-teal-600 text-white py-2 px-6 rounded-lg hover:bg-teal-700 transition">Tuma Ujumbe</button>
-                    </form>
+                <form class="space-y-4" action="{{ route('products.message') }}" method="POST"> 
+    @csrf 
+    <div> 
+        <label for="name" class="block text-gray-700 mb-2">Jina Lako</label> 
+        <input type="text" name="name" id="name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-600"> 
+    </div> 
+    <div> 
+        <label for="email" class="block text-gray-700 mb-2">Barua Pepe</label> 
+        <input type="email" name="email" id="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-600"> 
+    </div> 
+    <div> 
+        <label for="message" class="block text-gray-700 mb-2">Ujumbe Wako</label> 
+        <textarea name="message" id="message" rows="5" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-600"></textarea> 
+    </div> 
+    <button type="submit" class="bg-teal-600 text-white py-2 px-6 rounded-lg hover:bg-teal-700 transition">Tuma Ujumbe</button> 
+    
+</form>
                 </div>
                 
                 <div class="md:w-1/2">
@@ -322,7 +324,7 @@
                 <i class="fas fa-info-circle text-gray-500"></i>
                 <span class="text-xs mt-1 text-gray-700">About</span>
             </a>
-            <a href="#services" class="nav-item flex flex-col items-center py-3 px-2">
+            <a href="{{route('products.service')}}" class="nav-item flex flex-col items-center py-3 px-2">
                 <i class="fas fa-cogs text-gray-500"></i>
                 <span class="text-xs mt-1 text-gray-700">Services</span>
             </a>
@@ -348,10 +350,10 @@
                 <p class="text-sm text-gray-400 mt-2">Tunaunganisha wakulima na technologia na taarifa muhimu za hali ya hewa.</p>
             </div>
             <div class="flex items-center gap-6 text-sm">
-                <a href="#home" class="hover:text-teal-400 transition">Nyumbani</a>
-                <a href="#about" class="hover:text-teal-400 transition">Kuhusu</a>
-                <a href="#services" class="hover:text-teal-400 transition">Huduma</a>
-                <a href="#contact" class="hover:text-teal-400 transition">Wasiliana Nasi</a>
+                <a href="{{route('home')}}" class="hover:text-teal-400 transition">Nyumbani</a>
+                <a href="{{route('products.about')}}" class="hover:text-teal-400 transition">Kuhusu</a>
+                <a href="{{route('products.service')}}" class="hover:text-teal-400 transition">Huduma</a>
+                <a href="{{route('products.contact')}}" class="hover:text-teal-400 transition">Wasiliana Nasi</a>
             </div>
             <div class="text-sm text-gray-400 text-center md:text-right">
                 <p>&copy; 2025 Kilimo Smart. Haki zote zimehifadhiwa.</p>
