@@ -213,5 +213,8 @@ public function storeRatiba(Request $request) {
   public function contact(){
     return view('products.contact');
   }
+  public function service(){
+    return view('products.service');
+  }
   
 }

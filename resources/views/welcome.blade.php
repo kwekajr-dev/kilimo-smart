@@ -187,80 +187,8 @@
         </div>
     </section>
 
-    <!-- Services Section -->
-    <section id="services" class="py-16 bg-gray-100">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-3xl font-bold mb-10 text-center text-teal-800">Huduma Zetu</h2>
-            
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-                <a href="#" class="card bg-white rounded-xl shadow-sm hover:shadow-md p-5 flex items-center">
-                    <div class="bg-teal-100 rounded-full p-3 mr-4">
-                        <i class="fas fa-dollar-sign text-teal-700 text-xl"></i>
-                    </div>
-                    <div>
-                        <h3 class="font-medium text-gray-800">Bei Elekezi</h3>
-                        <p class="text-sm text-gray-500">Check current market prices</p>
-                    </div>
-                    <i class="fas fa-chevron-right text-gray-400 ml-auto"></i>
-                </a>
-                
-                <a href="#" class="card bg-white rounded-xl shadow-sm hover:shadow-md p-5 flex items-center">
-                    <div class="bg-blue-100 rounded-full p-3 mr-4">
-                        <i class="fas fa-envelope text-blue-700 text-xl"></i>
-                    </div>
-                    <div>
-                        <h3 class="font-medium text-gray-800">Mawasiliano</h3>
-                        <p class="text-sm text-gray-500">Communications and messages</p>
-                    </div>
-                    <i class="fas fa-chevron-right text-gray-400 ml-auto"></i>
-                </a>
-                
-                <a href="#" class="card bg-white rounded-xl shadow-sm hover:shadow-md p-5 flex items-center">
-                    <div class="bg-amber-100 rounded-full p-3 mr-4">
-                        <i class="fas fa-chart-bar text-amber-700 text-xl"></i>
-                    </div>
-                    <div>
-                        <h3 class="font-medium text-gray-800">Takwimu na ripoti</h3>
-                        <p class="text-sm text-gray-500">Statistics and reports</p>
-                    </div>
-                    <i class="fas fa-chevron-right text-gray-400 ml-auto"></i>
-                </a>
-                
-                <a href="#" class="card bg-white rounded-xl shadow-sm hover:shadow-md p-5 flex items-center">
-                    <div class="bg-green-100 rounded-full p-3 mr-4">
-                        <i class="fas fa-chalkboard-teacher text-green-700 text-xl"></i>
-                    </div>
-                    <div>
-                        <h3 class="font-medium text-gray-800">Elimu na ushauri</h3>
-                        <p class="text-sm text-gray-500">Education and advice</p>
-                    </div>
-                    <i class="fas fa-chevron-right text-gray-400 ml-auto"></i>
-                </a>
-                
-                <a href="#" class="card bg-white rounded-xl shadow-sm hover:shadow-md p-5 flex items-center">
-                    <div class="bg-red-100 rounded-full p-3 mr-4">
-                        <i class="fas fa-shopping-cart text-red-700 text-xl"></i>
-                    </div>
-                    <div>
-                        <h3 class="font-medium text-gray-800">Weka Mzigo</h3>
-                        <p class="text-sm text-gray-500">Add products to the market</p>
-                    </div>
-                    <i class="fas fa-chevron-right text-gray-400 ml-auto"></i>
-                </a>
-                
-                <a href="#" class="card bg-white rounded-xl shadow-sm hover:shadow-md p-5 flex items-center">
-                    <div class="bg-indigo-100 rounded-full p-3 mr-4">
-                        <i class="fas fa-users text-indigo-700 text-xl"></i>
-                    </div>
-                    <div>
-                        <h3 class="font-medium text-gray-800">Minada ya mazao</h3>
-                        <p class="text-sm text-gray-500">Crop auctions</p>
-                    </div>
-                    <i class="fas fa-chevron-right text-gray-400 ml-auto"></i>
-                </a>
-            </div>
-        </div>
-    </section>
+   
+    
 
   
     <section id="portfolio" class="py-16 bg-white">

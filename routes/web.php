@@ -5,7 +5,7 @@ use App\Http\Controllers\ProductController;
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('home');
 
 Route::get('/products/create', [ProductController::class, 'create'])->name('products.create');
 Route::post('/products/store', [ProductController::class, 'store'])->name('products.store');
@@ -25,6 +25,7 @@ Route::get('/products/masoko', [ProductController::class, 'masoko'])->name('prod
 Route::get('/products/getProducts', [ProductController::class, 'getProducts'])->name('products.getProducts');
 Route::get('/products/about', [ProductController::class, 'about'])->name('products.about');
 Route::get('/products/contact', [ProductController::class, 'contact'])->name('products.contact');
+Route::get('/products/service', [ProductController::class, 'service'])->name('products.service');
 
 
 
