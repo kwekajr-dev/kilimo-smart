@@ -106,7 +106,7 @@
         <img src="{{ asset('images/logo.jpg') }}" alt="Logo" class="logo">
 
         <form action="{{ route('products.sendData') }}" method="POST" enctype="multipart/form-data">
-            @csrf
+           @csrf 
 
             <div class="mb-4 text-left">
                 <label for="name" class="text-gray-700 font-medium">

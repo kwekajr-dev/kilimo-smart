@@ -9,6 +9,7 @@ use App\Models\User;
 use App\Models\shamba;
 use App\Models\ratiba;
 use App\Models\message;
+use App\Models\contact;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Http\Request;
@@ -235,5 +236,22 @@ public function storeRatiba(Request $request) {
     ]);
     return redirect()->route('home')->with('success', 'umefanikiwa kutuma taarifa');
     
+  }
+  public function ujumbe(Request $request){
+    $validated = $request->validate([
+     'phone' => 'required|string|max:255|digits:10',
+     'email' => 'required|string|max:255',
+     'subject' => 'required|string|max:255',
+     'message' => 'required|string|max:255',
+    ]);
+
+    $contact = contact::create([
+        'phone' => $request->phone,
+        'email' => $request->email,
+        'subject' => $request->subject,
+        'message' => $request->message,
+
+    ]);
+    return redirect()->route('products.contact')->with('success', 'umefanikiwa kutuma ujumbe');
   }
 }

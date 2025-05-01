@@ -170,22 +170,22 @@
             </div>
         </div>
 
-        <!-- Contact Page Content -->
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 mb-16 md:mb-0">
-            <!-- Header -->
+            
             <div class="text-center mb-8">
                 <h1 class="text-3xl font-bold text-teal-800">Wasiliana Nasi</h1>
                 <div class="h-1 w-24 bg-teal-500 mx-auto my-4"></div>
                 <p class="text-lg text-gray-600">Tuko hapa kukusaidia na maswali yako yote kuhusu kilimo cha kisasa</p>
             </div>
 
-            <!-- Contact Form Card -->
+            
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-10">
                 <div class="lg:col-span-2">
                     <div class="card bg-white rounded-xl shadow-md p-6 lg:p-8">
                         <h2 class="text-xl font-bold text-teal-700 mb-6">Tuma Ujumbe</h2>
                         
-                        <form class="space-y-6">
+                        <form class="space-y-6" action="{{route('products.ujumbe')}}" method="POST">
+                        @csrf 
                             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                                 <div>
                                     <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Jina Kamili</label>

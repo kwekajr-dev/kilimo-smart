@@ -129,7 +129,7 @@
                     <a href="{{route('home')}}" class="nav-item text-gray-700 hover:text-teal-600 px-3 py-2">Home</a>
                     <a href="{{route('products.about')}}" class="nav-item text-gray-700 hover:text-teal-600 px-3 py-2">About</a>
                     <a href="{{route('products.service')}}" class="nav-item text-gray-700 hover:text-teal-600 px-3 py-2">Services</a>
-                    <a href="{{route('products.about')}}" class="nav-item text-gray-700 hover:text-teal-600 px-3 py-2">Contact</a>
+                    <a href="{{route('products.contact')}}" class="nav-item text-gray-700 hover:text-teal-600 px-3 py-2">Contact</a>
                 </div>
                 
                 
@@ -280,7 +280,7 @@
                         <div class="space-y-4">
                             <div class="flex items-start">
                                 <i class="fas fa-map-marker-alt mt-1 mr-3 text-teal-600"></i>
-                                <p class="text-gray-700">9123 Mtaa Uhindini, DOdoma, Tanzania</p>
+                                <p class="text-gray-700">9123 Mtaa Uhindini, Dodoma, Tanzania</p>
                             </div>
                             <div class="flex items-start">
                                 <i class="fas fa-phone-alt mt-1 mr-3 text-teal-600"></i>
